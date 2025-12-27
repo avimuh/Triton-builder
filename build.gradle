@@ -27,6 +27,7 @@ allprojects {
     repositories {
         mavenLocal()
         mavenCentral()
+        maven { url 'https://libraries.minecraft.net/' }
         maven {
             name 'diogotcRepositorySnapshots'
             url 'https://repo.diogotc.com/snapshots/'
